@@ -11,8 +11,6 @@ const PartnersList =() => {
     const isLoading = useSelector((state) => state.partners.isLoading);
     const errMsg = useSelector((state) => state.partners.errMsg);
 
-
-
     return isLoading ? (
         <Loading />
     ): errMsg ? (
